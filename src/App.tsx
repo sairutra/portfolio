@@ -6,13 +6,13 @@ function App() {
                 <div id="center-text-container" className="flex justify-center min-h-full">
                     <div id='vertical-container' className="flex flex-col text-center justify-evenly min-h-full">
                         <div id="portfolio-title-container">
-                            <h1 className="text-8xl text-violet-200 font-micro">PORTFOLIO</h1>
-                            <h2>Sebastian Penning</h2>
+                            <h1 className="text-8xl text-fuchsia-300 font-micro">PORTFOLIO</h1>
+                            <h2 className="text-4xl text-purple-200 font-micro">SEBASTIAN PENNING</h2>
                         </div>
-                        <h1>Great Northern Peaks</h1>
-                        <h1>Transcendence</h1>
-                        <h1>miniRT</h1>
-                        <h1>FDF</h1>
+                        <h1 className="text-4xl text-rose-300 font-micro">Great Northern Peaks</h1>
+                        <h1 className="text-4xl text-yellow-300 font-micro">Transcendence</h1>
+                        <h1 className="text-4xl text-orange-300 font-micro">miniRT</h1>
+                        <h1 className="text-4xl text-indigo-600 font-micro">FDF</h1>
                     </div>
                 </div>
             </div>
