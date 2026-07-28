@@ -5,6 +5,8 @@ on:
   # Runs on pushes targeting the default branch
   push:
     branches: ['main']
+  paths-ignore:
+    - "**.md"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -50,5 +52,3 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@cd2ce8fcbc39b97be8ca5fce6e763baed58fa128 # v5
 
-paths-ignore:
-  - "**.md"
