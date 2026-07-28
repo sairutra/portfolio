@@ -13,11 +13,10 @@ function App() {
                         </div>
                         <div id="gnp-container min-h-full">
                             <h1 className="text-4xl text-rose-300 font-micro">Great Northern Peaks</h1>
-                            <ReactPlayer src='test.webm' width="100%" height="auto" controls={true} />
                         </div>
                         <div id="transcendence-container">
                             <h1 className="text-4xl text-yellow-300 font-micro">Transcendence</h1>
-                            <ReactPlayer src='test.webm' width="100%" height="auto" controls={true} />
+                            <ReactPlayer src='test.webm' width="100%" height="auto" controls={true} />;
                         </div>
                         <div id="minirt-container">
                             <h1 className="text-4xl text-orange-300 font-micro">miniRT</h1>
