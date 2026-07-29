@@ -25,7 +25,7 @@ function App() {
                         </div>
                         <div id="fdf-container">
                             <h1 className="text-4xl text-indigo-600 font-micro">FDF</h1>
-                            <ReactPlayer src='test.webm' width="100%" height="auto" controls={true} />
+                            <ReactPlayer src='fdf-showcase.mp4' width="100%" height="auto" controls={true} />
                         </div>
                     </div>
                 </div>
