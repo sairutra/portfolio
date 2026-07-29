@@ -13,15 +13,15 @@ function App() {
                         </div>
                         <div id="gnp-container min-h-full">
                             <h1 className="text-4xl text-rose-300 font-micro">Great Northern Peaks</h1>
-                            <ReactPlayer src='test.webm' width="100%" height="auto" controls={true} />;
+                            <ReactPlayer src='test.webm' width="100%" height="auto" controls={true} />
                         </div>
                         <div id="transcendence-container">
                             <h1 className="text-4xl text-yellow-300 font-micro">Transcendence</h1>
-                            <ReactPlayer src='trans-showcase.mp4' width="100%" height="auto" controls={true} />;
+                            <ReactPlayer src='trans-showcase.mp4' width="100%" height="auto" controls={true} />
                         </div>
                         <div id="minirt-container">
                             <h1 className="text-4xl text-orange-300 font-micro">miniRT</h1>
-                            <ReactPlayer src='test.webm' width="100%" height="auto" controls={true} />
+                            <ReactPlayer src='minirt-showcase.mp4' width="100%" height="auto" controls={true} />
                         </div>
                         <div id="fdf-container">
                             <h1 className="text-4xl text-indigo-600 font-micro">FDF</h1>
