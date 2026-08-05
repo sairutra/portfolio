@@ -11,6 +11,10 @@ function App() {
                             <h1 className="text-8xl text-fuchsia-300 font-micro">PORTFOLIO</h1>
                             <h2 className="text-4xl text-purple-200 font-micro">SEBASTIAN PENNING</h2>
                         </div>
+                        <div id="gnp-code-container min-h-full">
+                            <h1 className="text-4xl text-rose-300 font-micro">Great Northern Peaks Code Showcase</h1>
+                            <ReactPlayer src='gnp-code-showcase.mp4' width="100%" height="auto" controls={true} />
+                        </div>
                         <div id="gnp-container min-h-full">
                             <h1 className="text-4xl text-rose-300 font-micro">Great Northern Peaks</h1>
                             <ReactPlayer src='gnp-showcase.mp4' width="100%" height="auto" controls={true} />
